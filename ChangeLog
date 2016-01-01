@@ -1,0 +1,29 @@
+TuxGuitar 1.2 changes:
+
+* Fix some bugs
+* Support measure range to loop
+* Transpose notes feature
+* Optionally transpose afected notes when change tuning
+* Move beats left|right support
+* More song properties options.
+* Add multiple measure support
+* Clean multiple measure support
+* Number of pastes support
+* Better lilypond plugin
+* Better fluidsynth plugin
+* New jack plugin
+* New community integration plugin
+* New cocoa integration plugin
+* New audio unit plugin
+
+TuxGuitar-dev 1.2 changes :
+* keyboard number typing trick for the note edition with numbers 0-9 without NumLock
+(for numbers, not only the keys are interpreted but their resulting values too;
+for example on French keyboard "Shift-&" is not really the key "1",
+for SWT it is "&" with the modifier "Shift" but its value is "1")
+* Unix-like selection with key 'c' : when typing 'c', the caret begin a selection and some 'how to' tips appear on the tablature 
+* Direct copy of selected or previous notes with key 'd'
+* Deletion of all notes on the selected beat with 'Shift-d'
+* Mute of all notes on the string in the measure with 'Alt-p'
+* Tie of all notes on the beats in the measure with 'Shift-l'
+* Ghosting of all notes on the beat with 'Shift-o'
